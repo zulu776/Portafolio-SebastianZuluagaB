@@ -464,14 +464,30 @@ nav.social-nav ul li img {
    
     .box-img {
         width: 80%;
-        height: 50%;
-        /* background-color: red; */
-        /* align-items:flex-start; */
+        height: 45%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 150px 150px;
+        row-gap: 1%;
+        column-gap: 1%;
+        margin-left: 6%;
+     }
+    
+    .boxer-1 {
+        width: 50%;
     }
-
-    /* .boxer-1 {
-        width: 120%;
-    } */
+    
+    .boxer-2{
+        width: 50%;       
+    }
+        
+    .boxer-3 {
+        width: 50%;    
+    }
+        
+    .boxer-4 {
+        width: 50%;   
+    }
 }
 
 
