@@ -599,6 +599,39 @@ nav.social-nav ul li img {
         margin-top: 3%;
     }
 
+    .boxing-title{
+        font-size: 25px;
+        margin:1% 1%;
+    }
+    
+    .boxing-p{
+        font-size: 19px;
+    }
+
+}
+
+@media (max-width: 1050px) {
+    .upper{
+        flex-direction: column;
+    }
+
+    .fourth-left {
+        width: 60%;
+    }
+
+    .fourth-right{
+        width: 60%;
+    }
+
+    .boxing-title{
+        font-size: 23px;
+        margin:1% 1%;
+    }
+    
+    .boxing-p{
+        font-size: 18px;
+        margin-left: 2%;
+    }
 }
 
 @media (max-width: 850px) {
@@ -612,6 +645,16 @@ nav.social-nav ul li img {
     .three-p{
         font-size: 18px;
         margin-top: 3%;
+    }
+
+    .boxing-title{
+        font-size: 20px;
+        margin:1% 1%;
+    }
+    
+    .boxing-p{
+        font-size: 15px;
+        margin-left: 2%;
     }
 
 }
@@ -628,7 +671,6 @@ nav.social-nav ul li img {
         font-size: 15px;
         margin-top: 3%;
     }
-
 }
 
 
