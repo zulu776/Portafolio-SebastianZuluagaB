@@ -1,0 +1,27 @@
+*,
+html{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+/* SIN PUNTOS LAS LISTAS */
+ul{
+    list-style: none;
+}
+
+/* SIN SUBRAYADO LOS LINKS */
+a{
+    text-decoration: none;
+    font-family: "Lato-Light";
+}
+
+h1, h2, h3, h4,h5,h6,p{
+    font-family: "Lato-Light";
+}
+
+/* HELPERS */
+.container {
+    width: 90%;
+    margin: auto;
+}
