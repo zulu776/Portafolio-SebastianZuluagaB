@@ -114,7 +114,7 @@ header ul li a {
     position: absolute;
     top:0;
     right: 0;
-    background: linear-gradient(rgba(255,255,255,0.0), #121211 100%);
+    background: linear-gradient(rgba(255,255,255,0.0) 50%, #121211 100%);
 }
 
 .main-tittle h2 {
@@ -724,19 +724,220 @@ nav.social-nav ul li img {
 
 .fifth-section{
     height: 100vh;
-    background-color: black;
+    background-color: #121211;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
+.referents {
+    font-size: 30px;
+    font-weight: 900;
+    color: #eab104;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.unique{
+    width: 80%;
+    height: 90%; 
+    display: grid;
+    grid-template-columns: 45% 45% ;
+    row-gap: 10%;
+    column-gap:10%;
+    margin-top: 1%;
+}
 
+.boxing-fifth-section {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
 
+.imagen-1 {
+    background-image: url("../img/referencias/aurora.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.imagen-1:before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    right: 0;
+    background: linear-gradient(rgba(255,255,255,0.0) 50%, #121211 100%);
+}
 
+.imagen-2 {
+    background-image: url("../img/referencias/lago.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.imagen-2:before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    right: 0;
+    background: linear-gradient(rgba(255,255,255,0.0) 50%, #121211 100%);
+}
 
+.imagen-3 {
+    background-image: url("../img/referencias/montaña.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.imagen-3:before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    right: 0;
+    background: linear-gradient(rgba(255,255,255,0.0) 50%, #121211 100%);
+}
 
+.imagen-4 {
+    background-image: url("../img/referencias/nieve.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.imagen-4:before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    right: 0;
+    background: linear-gradient(rgba(255,255,255,0.0) 50%, #121211 100%);
+}
+
+.img-circle-1 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url("../img/referencias/1.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-circle-2 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url("../img/referencias/2.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-circle-3 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url("../img/referencias/3.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-circle-4 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url("../img/referencias/4.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-row {
+    width: 58%;
+    height: 10%;
+    display: flex;
+    margin: 3%;
+    font-size: 25px;
+    font-weight: bolder;
+    background-color: rgba(235, 235, 235, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40%;
+}
+
+.l1 {
+    border-right: 3px solid black;
+    margin-right: 5%;
+    padding-right: 5%;
+}
+
+.l2 {
+    border-right: 3px solid black;
+    margin-right: 5%;
+    padding-right: 5%;
+}
+
+@media (max-width: 580px) {
+   
+    .text-row {
+        width: 58%;
+        height: 10%;
+        flex-direction: column;
+        margin-top: 10%;
+        font-size: 15px;
+    }
+
+    .img-circle-1 {
+        width: 80px;
+        height: 80px;
+    }
+
+    .img-circle-2 {
+        width: 80px;
+        height: 80px;
+    }
+
+    .img-circle-3 {
+        width: 80px;
+        height: 80px;
+    }
+
+    .img-circle-4 {
+        width: 80px;
+        height: 80px;
+    }
+
+}
 
 
 
