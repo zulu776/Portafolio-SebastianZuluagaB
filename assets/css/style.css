@@ -130,7 +130,11 @@ header ul li a {
 }
 
 .main-tittle h1 span {
+    /* -webkit-text-stroke: 0.1px black; */
     color: gold;
+    /* font-weight: 900; */
+    /* -webkit-text-fill-color:#eab104;
+    -webkit-text-stroke: 0.1px black; */
 }
 
 nav.social-nav ul{
@@ -757,6 +761,13 @@ nav.social-nav ul li img {
     flex-direction: column;
 }
 
+.name-fifth {
+    font-size: 30px;
+    font-weight: 900;
+    -webkit-text-stroke: 0.1px black;
+    color:#eab104;
+}
+
 .imagen-1 {
     background-image: url("../img/referencias/aurora.jpg");
     background-position: center;
@@ -907,7 +918,41 @@ nav.social-nav ul li img {
     padding-right: 5%;
 }
 
+@media (max-width: 1000px) {
+    .name-fifth {
+        font-size: 25px;
+    }
+   
+    .text-row {
+        font-size: 20px;
+    }
+
+    .img-circle-1 {
+        width: 100px;
+        height: 100px;
+    }
+
+    .img-circle-2 {
+        width: 100px;
+        height: 100px;
+    }
+
+    .img-circle-3 {
+        width: 100px;
+        height: 100px;
+    }
+
+    .img-circle-4 {
+        width: 100px;
+        height: 100px;
+    }
+}
+
 @media (max-width: 580px) {
+
+    .name-fifth {
+        font-size: 20px;
+    }
    
     .text-row {
         width: 58%;
@@ -938,6 +983,28 @@ nav.social-nav ul li img {
     }
 
 }
+
+/* <-------------------> */
+/* <-------------------> */
+/* <-------------------> */
+   /* SIXTH SECTION */
+/* <-------------------> */
+/* <-------------------> */
+/* <-------------------> */
+
+.sixth-section {
+    height: 30vh;
+    background-color:#1A1919;
+}
+
+
+
+
+
+
+
+
+
 
 
 
