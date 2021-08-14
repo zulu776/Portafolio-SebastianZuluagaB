@@ -543,7 +543,7 @@ nav.social-nav ul li img {
 /* <-------------------> */
 
 .fourth-section{
-    height: 75vh;
+    height: 80vh;
     background-image: url("../img/Planos.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -658,7 +658,6 @@ nav.social-nav ul li img {
 
     .boxing-title{
         font-size: 23px;
-        margin:1% 1%;
     }
     
     .boxing-p{
@@ -677,16 +676,16 @@ nav.social-nav ul li img {
     
     .three-p{
         font-size: 18px;
-        margin-top: 3%;
+        margin-top: 2%;
     }
 
     .boxing-title{
-        font-size: 20px;
+        font-size: 15px;
         margin:1% 1%;
     }
     
     .boxing-p{
-        font-size: 15px;
+        font-size: 12px;
         margin-left: 2%;
     }
 
