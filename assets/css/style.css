@@ -603,7 +603,7 @@ nav.social-nav ul li img {
 .img-boxing{
     width: 20%;
     height: 40%;
-    margin-left: 2%;
+    margin-left: 1%;
 }
 
 .boxing-title{
@@ -638,7 +638,7 @@ nav.social-nav ul li img {
     }
     
     .boxing-p{
-        font-size: 19px;
+        font-size: 20px;
     }
 
 }
@@ -664,6 +664,10 @@ nav.social-nav ul li img {
         font-size: 18px;
         margin-left: 2%;
     }
+
+    .img-boxing{
+        height: 20%;
+    }
 }
 
 @media (max-width: 850px) {
@@ -685,7 +689,7 @@ nav.social-nav ul li img {
     }
     
     .boxing-p{
-        font-size: 12px;
+        font-size: 15px;
         margin-left: 2%;
     }
 
@@ -696,12 +700,15 @@ nav.social-nav ul li img {
     .two-p{
         font-size: 25px;
         font-weight: 700;
-        margin-top: 3%;
+        margin-top: 2%;
     }
     
     .three-p{
-        font-size: 15px;
-        margin-top: 3%;
+        font-size: 10px;
+        margin-top: 2%;
+    }
+    .img-boxing{
+        height: 20%;
     }
 }
 
@@ -998,7 +1005,7 @@ nav.social-nav ul li img {
     justify-content: center;
     align-items: center;
     flex-direction: row;
-
+    background-color: rgba(0,0,0,0.2);
 }
 
 .sixth-left {
@@ -1017,12 +1024,10 @@ nav.social-nav ul li img {
 }
 
 .left-2 {
-    -webkit-text-stroke: 0.2px darkgray;
     color: white;
     font-size: 40px;
     font-weight: 900;
-    margin-top: 1%;
-    
+    margin-top: 1%;   
 }
 
 .left-3 {
@@ -1120,13 +1125,10 @@ nav.social-nav ul li img {
     }
 
     .button-sixth {
-        font-size: 10px;
+        font-size: 8px;
     }
 
 }
-
-
-
 
 
 
@@ -1142,8 +1144,144 @@ nav.social-nav ul li img {
 /* <-------------------> */
 /* <-------------------> */
 
+.seventh-section {
+    height: 38vh;
+    background-color: #1A1919;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-seventh {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;    
+}
+
+.logo-seventh {
+    width: 25%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.name-7 {
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.second-container {
+    width: 70%;
+    height: 20%;
+    margin-top: 5%;
+    display: flex;
+}
+
+.box-7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-box-7 {
+    width: 20%;
+}
+
+.info-7 {
+    margin-left: 4%;
+}
+
+.title-7 {
+    color: grey;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.general-7 {
+    color: white;
+    font-size: 18px;
+    font-weight: 800;
+}
 
 
+
+
+@media (max-width: 1000px) {
+
+    .seventh-section {
+        height: 45vh;
+    }
+
+    .second-container {
+        height: 40%;
+        /* flex-direction: column; */
+    }
+
+    .name-7 {
+        font-size: 18px;
+    
+    }
+
+    .box-7 {
+        height: 40%;
+        justify-content: left;
+    }
+
+    .img-box-7 {
+        width: 15%;
+    }
+
+    .title-7 {
+        font-size: 15px;
+    }
+
+    .general-7 {
+        font-size: 15px;
+    }
+
+}
+
+
+
+
+@media (max-width: 700px) {
+
+    .seventh-section {
+        height: 45vh;
+    }
+
+    .second-container {
+        height: 40%;
+        flex-direction: column;
+    }
+
+    .name-7 {
+        font-size: 18px;
+    
+    }
+
+    .box-7 {
+        height: 40%;
+        justify-content: left;
+    }
+
+    .img-box-7 {
+        width: 10%;
+    }
+
+    .title-7 {
+        font-size: 10px;
+    }
+
+    .general-7 {
+        font-size: 13px;
+    }
+
+}
 
 
 
@@ -1156,45 +1294,39 @@ nav.social-nav ul li img {
 /* <-------------------> */
 /* <-------------------> */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* <-------------------> */
-/* <-------------------> */
-/* <-------------------> */
-     /* RESPONSIVE */
-/* <-------------------> */
-/* <-------------------> */
-/* <-------------------> */
-
-@media (max-width: 1200px) {
-   
-
-
+.final-section {
+    height: 8vh;
+    background-color:#121211;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-@media (max-width: 580px) {
-   
-
-
+.final-1 {
+   color: white;
+   font-size: 15px;
+   border-right: black ;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
