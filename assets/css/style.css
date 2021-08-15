@@ -29,7 +29,6 @@ top: 0;
 left: 0;
 padding: 1.5rem 0;
 background-color: black;
-/* position: fixed; */
 }
 
 .logo a { 
@@ -38,11 +37,9 @@ background-color: black;
 }
 
 header ul li a {
-    /* text-align: center; */
     color: white;
     font-weight: bold;
     font-size: 20px;
- 
 }
 
 @media (max-width: 1200px) {
@@ -222,7 +219,6 @@ nav.social-nav ul li img {
     display: flex;
     justify-content: center;
     color: lightgray;
-    /* background-color: red; */
 }
 
 .square:hover{
