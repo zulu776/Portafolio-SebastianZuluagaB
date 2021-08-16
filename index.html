@@ -21,15 +21,17 @@
             </div>
             <div id="menu" class="menu">
                 <ul class="ul-menu">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Service</a></li>
-                    <li><a href="#">Portafolio</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Service">Service</a></li>
+                    <li><a href="#Portafolio">Portafolio</a></li>
+                    <li><a href="#Referents">Referents</a></li>
+                    <li><a href="#Contact">Contact</a></li>
                 </ul>
             </div>   
-            <button class="button-menu" type="button" onclick="menuOpen()">MENU</button>
+            <button class="button-menu" type="button" onclick="menuOpen()">
+                <img class="img-menu" src="assets/img/menu/menu.svg"/>
+            </button>
         </div>
     </header>
     <!-- Fin header -->
@@ -61,7 +63,7 @@
 <!------- SECOND SECTION ------->
 <!----------------------------->
 
-    <section>
+    <section id="About">
         <div class="second-section" id="About">
           <div class="info-nav">
               <div class="square">
@@ -127,7 +129,7 @@
 <!------- THIRD SECTION ------->
 <!----------------------------->
 
-    <section class="third-section" id="third-section">
+    <section class="third-section" id="Service">
         <div class="first-part">
             <h5>OUR WORKS</h5>
             <p class="p-first">SELECTED PROJECT</p>
@@ -150,7 +152,7 @@
 <!------- FOURTH SECTION ------->
 <!----------------------------->
 
-    <section class="fourth-section">
+    <section class="fourth-section" id="Portafolio">
        <div class="difuminado"></div>
        <div class="upper">
            <div class="fourth-left">
@@ -200,7 +202,7 @@
 <!------- FIFTH SECTION ------->
 <!----------------------------->
 
-    <section class="fifth-section">
+    <section class="fifth-section" id="Referents">
         <p class="referents">REFERENTS</p>
         <div  class="unique">
             <div class="boxing-fifth-section imagen-1">
@@ -246,7 +248,7 @@
 <!------- SIXTH SECTION ------->
 <!----------------------------->
 
-<section class="sixth-section">
+<section class="sixth-section" id="Contact">
     <div class="container-sixth">
         <div class="sixth-left">
             <p class="left-1">GET IN TOUCH</p>
@@ -254,9 +256,12 @@
             <p class="left-3">Subscribe for free newsletter</p>
         </div>
         <div class="sixth-right">
-            <input size="1" type="email" name="form-field [email]" class="elementor-field"
-            placeholder="Email Address" required="required" aria-required="true">
+            <form action="https://formspree.io/f/xnqlodzz" method="POST" class="sixth-right">
+            <input size="1" type="email" name="form-field [email]" 
+                    class="elementor-field"placeholder="Email Address" 
+                    required="required" aria-required="true">
             <button type="submit" class="button-sixth">SUBSCRIBE</button>
+            </form>
         </div>
     </div>  
 </section>
