@@ -1,24 +1,11 @@
-const header = document.getElementById("main-header")
-const thirdSection = document.getElementById("third-section")
-const about = document.getElementById("about")
+let menuDesplegable = document.getElementById("menu");
 
-function scrollHeaderTop(){
-
-    let offSetAbout = thirdSection.offsetTop - 200;
-    // console.log("Offset --->",offSetAbout - 100);
-    console.log("Original --->",offSetAbout)
-
-    if(window.scrollY > 500){
-        header.classList.add("fixed-header")
-    }
-    // console.log(window.scrollY)
-
-    if(thirdSection.offsetTop === window.scrollY){
-        about.style.opacity = "1"
+function menuOpen(){
+    if(menuDesplegable.classList.contains('open')){
+        menuDesplegable.classList.remove('open');
+    }else{
+        menuDesplegable.classList.add('open');
     }
 }
-
-// document.addEventListener("scroll",scrollHeaderTop);
-document.onscroll = scrollHeaderTop;
 
 

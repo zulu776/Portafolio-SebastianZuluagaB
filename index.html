@@ -13,21 +13,24 @@
 <body>  
     <!-- Inicio header -->
     <header id="main-header">
-        <nav class="container row justify-between">
+        <div class="container row justify-between">
             <div class="logo col-2 d-flex justify-center align-center">
                 <img class="col-2" src="assets/iconos/003-letra-s.svg"/>
                 <img class="col-2" src="assets/iconos/002-letra-z.svg"/>
                 <img class="col-2" src="assets/iconos/001-letra-b.svg"/>
             </div>
-            <ul class="col-6 d-flex justify-between align-center">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Service</a></li>
-                <li><a href="#">Portafolio</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>   
-        </nav>
+            <div id="menu" class="menu">
+                <ul class="ul-menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Portafolio</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>   
+            <button class="button-menu" type="button" onclick="menuOpen()">MENU</button>
+        </div>
     </header>
     <!-- Fin header -->
 
@@ -304,7 +307,7 @@
     <p class="final-1">2021 Sebastian Zuluaga Becerra Mechanical Engineer   |   All Right Reserved</p>
 </section>
 
-
+<script src="assets/js/scroll.js"></script>
 
 </body>
 </html>

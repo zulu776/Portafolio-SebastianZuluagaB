@@ -42,6 +42,24 @@ header ul li a {
     font-size: 20px;
 }
 
+.button-menu {
+    display: none;
+}
+
+.menu {
+    width: 50%;
+    display: flex;
+}
+
+.ul-menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
 @media (max-width: 1200px) {
     
     header {
@@ -57,7 +75,7 @@ header ul li a {
 
 }
 
-@media (max-width: 650px) {
+@media screen and (max-width: 650px) {
     
     header {
 
@@ -68,6 +86,34 @@ header ul li a {
     header ul li a {
         font-size: 10px;
          
+    }
+
+    .button-menu {
+        display: flex;
+        color: white;
+        background-color: transparent;
+        border-radius:10% ;
+    }
+
+    .menu {
+        width: 60px;
+        height: 130px;
+        background-color: black;
+        position: absolute;
+        top: -25%;
+        right: 2%;
+        border-radius: 5%;
+    }
+
+
+    .ul-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .menu.open {
+        top: 0.7%;
     }
 
 }
